@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: rgb(232, 249, 122);
+}
+
+section {
+    display: flex;
+    gap: 8px;
+}
+
+article,
+footer {
+    background-color: rgb(255, 217, 141);
+}
+
+article {
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(182, 7, 1);
+}
+
+a:hover {
+    text-decoration: underline;
+}
